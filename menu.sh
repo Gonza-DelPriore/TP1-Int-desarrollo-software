@@ -1,6 +1,7 @@
 #!/bin/bash
 
-export FILENAME
+#Variable nombre del archivo que contiene el padrón
+export FILENAME="hola"
 parametro="$1"
 
 if [ "$parametro" == "-d" ];then
